@@ -11,7 +11,7 @@ jobs:
       image: python:3.9-slim
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: "BenBauschTempAccount/ci-cd-final-project.git"
           ref: "main"
